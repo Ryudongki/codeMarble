@@ -26,7 +26,7 @@ class DBManager:
                                                           autoflush=False,
                                                           bind=DBManager.__engine))
 
-        global  dao
+        global dao
         dao = DBManager.__session
 
 
